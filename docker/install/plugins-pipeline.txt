@@ -1,0 +1,6 @@
+github-branch-source
+pipeline-github-lib
+pipeline-graph-analysis
+pipeline-maven
+pipeline-model-definition
+pipeline-stage-view

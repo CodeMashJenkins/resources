@@ -1,0 +1,15 @@
+ant                        
+antisamy-markup-formatter
+bouncycastle-api
+build-timeout
+cloudbees-bitbucket-branch-source
+gradle
+greenballs
+htmlpublisher
+matrix-auth
+metrics
+pam-auth
+sse-gateway
+timestamper
+variant
+ws-cleanup
