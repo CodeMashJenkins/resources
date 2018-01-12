@@ -4,8 +4,8 @@ Additional resources related to the CodeMash session and using Jenkins' Pipeline
 
 ## Session Presentation
 
-The ```Building Delivery Pipelines with Jenkins Pipeline as Code - CodeMash 2018``` folder contains
-an HTML version of the session presentation.
+The [Building Delivery Pipelines with Jenkins Pipeline as Code - CodeMash 2018](/Building%20Delivery%20Pipelines%20with%20Jenkins%20Pipeline%20as%20Code%20-%20CodeMash%202018/)
+folder contains an HTML version of the session presentation.
 
 ## Sandbox Docker image
 
