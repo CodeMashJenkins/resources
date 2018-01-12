@@ -9,7 +9,7 @@ folder contains an HTML version of the session presentation.
 
 ## Sandbox Docker image
 
-The [docker folder](/docker/) defines a Docker image that can be used as a sandbox environment 
+The [docker](/docker/) folder defines a Docker image that can be used as a sandbox environment 
 to try out the provided code samples.
 
 ## Links
