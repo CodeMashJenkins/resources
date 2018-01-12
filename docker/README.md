@@ -21,7 +21,7 @@ Depending on your Internet connection, this script may occasionally fail with th
 Some plugins failed to download!
 ```
 If this should occur, run the build again, potentially multiple times, until all of the plugins
-have have loaded.
+have loaded.
 
 # Running the sandbox container
 
@@ -45,7 +45,7 @@ Add the following parameters to the run command to configure a different admin u
 combination:
 
 ```
---env JENKINS_USER=_<userid>_ --env JENKINS_PASS=_<password>_
+--env JENKINS_USER=<userid> --env JENKINS_PASS=<password>
 ```
 
 ## Configuring the Jenkins port
@@ -54,7 +54,7 @@ Add the following parameter to the run commend to configure a different IP port 
 Jenkins application:
 
 ```
--p _<port>_:8080
+-p <port>:8080
 ```
 
 ## Enabling support for Docker-based agents
@@ -63,7 +63,7 @@ In order for the sandbox to run Docker containers, map the Docker socket on the 
 to point to the host Docker socket.  This can be done using the following parameter:
 
 ```
---volume _<host Docker socket>_:/var/run/docker.sock
+--volume <host Docker socket>:/var/run/docker.sock
 ```
 
 On a Linux host, for example, this parameter would be:
@@ -83,7 +83,7 @@ configuration will be lost.  If you would like to preserve Jenkins configuration
 runs of the container, add the following parameter to the run command:
 
 ```
---volume _<host path>_:/var/jenkins_home
+--volume <host path>:/var/jenkins_home
 ```
 
 ## Putting it all together
